@@ -20,11 +20,11 @@ set diameter(newRadius){
   this.radius= newRadius / 2
 }
 set circumference(newRadius){
- this.radius= 
+ this.radius= newRadius / this.pi / 2
   
 }
 set area(newRadius){
-  return this.pi * (radius ** 2)
+  this.radius= Math.sqrt(newRadius) / this.pi
   
 }
 }
