@@ -17,10 +17,10 @@ get area(){
   
 }
 set diameter(newRadius){
-  return 2 * this.radius
+  this.radius= newRadius / 2
 }
 set circumference(newRadius){
-  return 2 * this.pi * this.radius
+ this.radius= 
   
 }
 set area(newRadius){
