@@ -12,7 +12,7 @@ get circumference(){
   
 }
 get area(){
-  return this.pi * (radius ** 2)
+  return this.pi * (this.radius ** 2)
   
 }
 set diameter(newRadius){
